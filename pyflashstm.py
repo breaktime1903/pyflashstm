@@ -13,6 +13,8 @@ Chip type can be:
 
 DEBUGGER_CFG = 'share/openocd/scripts/interface/cmsis-dap.cfg'
 
+START_ADDRESS = '0x08000000' #For STM32 microcontroller the Flash is started in there.
+
 CHIP_TYPE={
     'stm32f1':'share/openocd/scripts/target/stm32f1x.cfg',
     'stm32f4':'share/openocd/scripts/target/stm32f4x.cfg',
